@@ -1,10 +1,11 @@
-## Table of contents
-* [General info](#general-info)
+## Table of Contents
+* [General Info](#general-info)
 * [Technologies](#technologies)
 * [Setup](#setup)
+* [Contributing](#contributing)
 * [License](#license)
 
-## General info
+## General Info
 This application allows searching a number from a given set of numbers following binary search algorithm
 
 >**Binary search algorithm** search a sorted array by repeatedly dividing the search interval in half. At the first time the search interval covers the whole array. If the value of the search key is less than the item in the middle of the search interval then the control goes to the left half. Otherwise the control goes to the right half. This process goes on and on until the value is found or the search interval is empty.
@@ -28,6 +29,13 @@ To run this application, building the source locally using git:
 $ git clone https://github.com/sumuongit/binary-search-algorithm.git
 
 ```
+
+## Contributing
+* Fork the repository
+* Create a topic branch
+* Implement your feature or bug fix
+* Add, commit, and push your changes
+* Submit a pull request
 
 ## License
 [MIT License](https://github.com/sumuongit/binary-search-algorithm/blob/master/LICENSE)
