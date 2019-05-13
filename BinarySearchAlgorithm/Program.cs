@@ -40,20 +40,22 @@ namespace BinarySearchAlgorithm
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("An array of sorted numbers is as follows:");
+            Console.WriteLine("INPUT: An array of sorted numbers is as follows:");
+            Console.WriteLine("================================================");
             Console.WriteLine("1, 5, 17, 20, 23, 30, 38, 40, 46, 50, 59, 60, 67, 70, 74");
             Console.WriteLine();
-            Console.Write("Please enter a search key number: ");
+            Console.Write("Please enter a search key number: ");            
             int input = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine();
             BinarySearch bs = new BinarySearch();
             bool keyNumberInArray = bs.DoSearch(input);
             if (keyNumberInArray)
             {
-                Console.WriteLine("The given number is available in the array");
+                Console.WriteLine("OUTPUT: The given number is available in the array");
             }
             else
             {
-                Console.WriteLine("The given number is NOT available in the array");
+                Console.WriteLine("OUTPUT: The given number is NOT available in the array");
             }
             Console.ReadLine();
         }
