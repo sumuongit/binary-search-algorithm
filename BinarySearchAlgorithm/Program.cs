@@ -40,6 +40,9 @@ namespace BinarySearchAlgorithm
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("An array of sorted numbers is as follows:");
+            Console.WriteLine("1, 5, 17, 20, 23, 30, 38, 40, 46, 50, 59, 60, 67, 70, 74");
+            Console.WriteLine();
             Console.Write("Please enter a search key number: ");
             int input = Convert.ToInt32(Console.ReadLine());
             BinarySearch bs = new BinarySearch();
