@@ -22,12 +22,12 @@ namespace BinarySearchAlgorithm
                 }
                 else if (inputKeyNumber > numberArray[midNumber])
                 {
-                    //GOES TO THE RIGHT HALF OF THE RANGE
+                    // Goes to the right half of the range
                     minimumNumber = midNumber + 1;
                 }
                 else if (inputKeyNumber < numberArray[midNumber])
                 {
-                    //GOES TO THE LEFT HALF OF THE RANGE
+                    // Goes to the left half of the range
                     maximumNumber = midNumber - 1;
                 }                         
             }
@@ -57,6 +57,7 @@ namespace BinarySearchAlgorithm
             {
                 Console.WriteLine("OUTPUT: The given number is NOT available in the array");
             }
+
             Console.ReadLine();
         }
     }
